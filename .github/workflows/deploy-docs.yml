@@ -40,7 +40,7 @@ jobs:
           > docs/.vuepress/dist/.nojekyll
 
       - name: Deploy Docs
-        uses: wuqingfeng234/wuqingfeng234.github.io@v4
+        uses: wuqingfeng234/wuqingfeng234.github.io@v3
         with:
           # This is the branch where the docs are deployed to
           branch: gh-pages
